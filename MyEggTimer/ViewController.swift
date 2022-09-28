@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         secondsPassed = 0
         progressView.progress = 0.0
         secondsName.text = "0"
-        progressView.progressTintColor = UIColor(named: hardness)
+        progressView.progressTintColor = UIColor(named: hardness) 
         
         
         timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(timerPassed), userInfo: nil, repeats: true)
